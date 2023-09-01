@@ -2,7 +2,7 @@ fx_version "cerulean"
 
 description "A edited version of LegacyFuel with a animation and a ui design"
 author "gachaa"
-version '1.0'
+version '1.0.1'
 
 lua54 'yes'
 
@@ -26,4 +26,9 @@ server_script {
 files {
 	'web/build/index.html',
 	'web/build/**/*',
+}
+
+exports {
+	'GetFuel',
+	'SetFuel'
 }
